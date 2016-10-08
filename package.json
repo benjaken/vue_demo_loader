@@ -1,6 +1,6 @@
 {
   "name": "vue_demo_loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue_demo_loader for webpack",
   "main": "index.js",
   "scripts": {

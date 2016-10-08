@@ -45,10 +45,10 @@ var wrapDemoCode = function(html) {
             var esCode = Prism.highlight(code, Prism.languages.markup, 'markup')
             esCode = esCode.replace(/\\n\s{4}/gi, '\\n').replace(/\s+$/gi, '')
 
-            var str = `<div class="code-box code-boxes-col">
-          <h3>${title}</h3>
-          <div class="code-boxes-col-2-1 code-box-demo">${code}</div>
-          <div class="code-boxes-col-2-1 code-box-code"><pre>${esCode}</pre></div>
+            var str = `<div class="code-box">
+                      <h3>${title}</h3>
+                      <div class="code-boxes-col-2-1 code-box-demo">${code}</div>
+                      <div class="code-boxes-col-2-1 code-box-code"><pre>${esCode}</pre></div>
       </div>`
 
             return str
