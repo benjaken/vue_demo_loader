@@ -48,7 +48,7 @@ var wrapDemoCode = function(html) {
             var str = `<div class="code-box">
                       <h3>${title}</h3>
                       <div class="code-boxes-col-2-1 code-box-demo">${code}</div>
-                      <div class="code-boxes-col-2-1 code-box-code"><pre>${esCode}</pre></div>
+                      <div class="code-boxes-col-2-1 code-box-code"><h5>代码：</h5><pre>${esCode}</pre></div>
       </div>`
 
             return str
