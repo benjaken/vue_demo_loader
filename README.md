@@ -2,7 +2,7 @@
 
 ===============
 
-此项目是vue-antd处理文档的webpack loader工具
+此项目是vue处理文档的webpack loader工具
 
 ## License
 
